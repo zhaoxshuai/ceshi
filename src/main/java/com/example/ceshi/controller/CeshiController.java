@@ -14,4 +14,9 @@ public class CeshiController {
     public String ceshi(){
         return "hell word";
     }
+
+    @RequestMapping("git")
+    public String git(){
+        return " hello git";
+    }
 }
