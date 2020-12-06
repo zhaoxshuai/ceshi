@@ -13,6 +13,5 @@ public class CeshiController {
     @RequestMapping("/ceshi")
     public String ceshi(){
         return "hell word";
-
     }
 }
